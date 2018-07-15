@@ -2,7 +2,7 @@ def unsafe?(speed)
   speed = " ".to_i 
   if !speed.between?(40, 60)
     return true
-  else
+  else speed.between?(40, 60)
     return false
   end
 end
