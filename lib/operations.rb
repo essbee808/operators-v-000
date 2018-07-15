@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  speed.between?(40, 60)
+  speed >= 40
   if !speed.between(40, 60) == true
     return true
   else
